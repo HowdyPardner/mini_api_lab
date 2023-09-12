@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-
+import './index.css'
 const Displaydata = () => {
     const [productArray, setProductArray] = useState([]);
 
@@ -16,7 +16,7 @@ const Displaydata = () => {
 
     // show the name and price of each item on the screen.
   return (
-    <div>
+    <div id='card-container'>
         {
             productArray.map((product)=>{
                 return (
