@@ -20,7 +20,7 @@ const Displaydata = () => {
         {
             productArray.map((product)=>{
                 return (
-                    <div id='prodcut-card'>
+                    <div id='prodcut-card' key={product.id}>
                         <img src={product.images[0]} alt="" />
                         <h3>{product.brand}</h3>
                         <p>{product.description}</p>
