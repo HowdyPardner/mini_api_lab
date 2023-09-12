@@ -1,0 +1,13 @@
+
+#card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#prodcut-card{
+    border: 1px solid black;
+}
+
+#prodcut-card img {
+    width: 250;
+    height: 250;
+}
